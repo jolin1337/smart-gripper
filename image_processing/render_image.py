@@ -32,9 +32,9 @@ def render_image(image='Viewer Node'):
     return bpy.data.images[image]
 
 
-def save_render_image_as(filepath):
+def save_render_image_as(filepath, **options):
     bpy.context.scene.render.filepath = filepath
-    bpy.ops.render.render(write_still=True)
+    bpy.ops.render.render(write_still=True, **options)
 
 
 if __name__ == '__main__':
