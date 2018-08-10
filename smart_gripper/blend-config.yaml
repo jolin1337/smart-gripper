@@ -1,0 +1,6 @@
+{
+  "input_config": {
+    "blend_file": "blend-files/grip-demo.blend",
+    "grip_name": "TargetGrip"
+  }
+}
